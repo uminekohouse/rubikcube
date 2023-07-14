@@ -1,0 +1,311 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUTTON_NAMES	rubik-cube-gui-solver.py	/^    BUTTON_NAMES = ["next", "next cont", "prev", "prev cont"]$/;"	v	class:RubikCubeSolverGUI_AnimationScreen
+BUTTON_NAMES	rubik-tower-gui-solver.py	/^    BUTTON_NAMES = ["next", "next cont", "prev", "prev cont"]$/;"	v	class:RubikCubeSolverGUI_AnimationScreen
+CUBE_DIAG_DIR_VEC	rubik-cube-gui-solver.py	/^    CUBE_DIAG_DIR_VEC = [(-1, -1, +1), (+1, -1, +1), (+1, +1, +1), (-1, +1, +1)]$/;"	v	class:CubeSymmetry
+CUBE_DIAG_DIR_VEC	rubik-tower-gui-solver.py	/^    CUBE_DIAG_DIR_VEC = [(-1, -1, +1), (+1, -1, +1), (+1, +1, +1), (-1, +1, +1)]$/;"	v	class:CubeSymmetry
+CUBE_SYMMETRY_X_90DEG	rubik-cube-gui-solver.py	/^CUBE_SYMMETRY_X_90DEG = CubeSymmetry([2, 3, 1, 0])  # = cyclic(0, 2, 1, 3)$/;"	v
+CUBE_SYMMETRY_X_90DEG	rubik-tower-gui-solver.py	/^CUBE_SYMMETRY_X_90DEG = CubeSymmetry([2, 3, 1, 0])  # = cyclic(0, 2, 1, 3)$/;"	v
+CUBE_SYMMETRY_Y_90DEG	rubik-cube-gui-solver.py	/^CUBE_SYMMETRY_Y_90DEG = CubeSymmetry([1, 3, 0, 2])  # = cyclic(0, 1, 3, 2)$/;"	v
+CUBE_SYMMETRY_Y_90DEG	rubik-tower-gui-solver.py	/^CUBE_SYMMETRY_Y_90DEG = CubeSymmetry([1, 3, 0, 2])  # = cyclic(0, 1, 3, 2)$/;"	v
+CUBE_SYMMETRY_Z_90DEG	rubik-cube-gui-solver.py	/^CUBE_SYMMETRY_Z_90DEG = CubeSymmetry([1, 2, 3, 0])  # = cyclic(0, 1, 2, 3)$/;"	v
+CUBE_SYMMETRY_Z_90DEG	rubik-tower-gui-solver.py	/^CUBE_SYMMETRY_Z_90DEG = CubeSymmetry([1, 2, 3, 0])  # = cyclic(0, 1, 2, 3)$/;"	v
+Cube	rubik-cube-gui-solver.py	/^    class Cube:$/;"	c	class:RubikCubeModel
+Cube	rubik-tower-gui-solver.py	/^    class Cube:$/;"	c	class:RubikCubeModel
+CubeSymmetry	rubik-cube-gui-solver.py	/^class CubeSymmetry(Permutation):$/;"	c
+CubeSymmetry	rubik-tower-gui-solver.py	/^class CubeSymmetry(Permutation):$/;"	c
+DEFAULT_COLORS	rubik-cube-gui-solver.py	/^    DEFAULT_COLORS = [FACE_COLOR_INITIAL[c] for c in list("WWWWWWWWWBBBBBBBBBRRRRRRRRRYYYYYYYYYGGGGGGGGGOOOOOOOOO")]$/;"	v	class:RubikCubeModel
+DEFAULT_COLORS	rubik-tower-gui-solver.py	/^    DEFAULT_COLORS = [FACE_COLOR_INITIAL[c] for c in list("WWWWBBBBRRRRYYYYGGGGOOOO")]$/;"	v	class:RubikCubeModel
+FACE_CENTERS	rubik-cube-gui-solver.py	/^    FACE_CENTERS = [[1, 4, 'U'], [4, 7, 'R'], [4, 4, 'F'], [7, 4, 'D'], [4, 1, 'L'], [4, 10, 'B']]$/;"	v	class:InputPanels
+FACE_COLORS	rubik-cube-gui-solver.py	/^FACE_COLORS = [$/;"	v
+FACE_COLORS	rubik-tower-gui-solver.py	/^FACE_COLORS = [$/;"	v
+FACE_COLOR_ID_BLACK	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_BLACK  = 0 # キューブの見えない面に使われている$/;"	v
+FACE_COLOR_ID_BLACK	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_BLACK  = 0 # キューブの見えない面に使われている$/;"	v
+FACE_COLOR_ID_BLUE	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_BLUE   = 3$/;"	v
+FACE_COLOR_ID_BLUE	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_BLUE   = 3$/;"	v
+FACE_COLOR_ID_GREEN	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_GREEN  = 5$/;"	v
+FACE_COLOR_ID_GREEN	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_GREEN  = 5$/;"	v
+FACE_COLOR_ID_MAX	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_MAX    = FACE_COLOR_ID_YELLOW$/;"	v
+FACE_COLOR_ID_MAX	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_MAX    = FACE_COLOR_ID_YELLOW$/;"	v
+FACE_COLOR_ID_ORANGE	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_ORANGE = 4$/;"	v
+FACE_COLOR_ID_ORANGE	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_ORANGE = 4$/;"	v
+FACE_COLOR_ID_RED	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_RED    = 2$/;"	v
+FACE_COLOR_ID_RED	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_RED    = 2$/;"	v
+FACE_COLOR_ID_WHITE	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_WHITE  = 1$/;"	v
+FACE_COLOR_ID_WHITE	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_WHITE  = 1$/;"	v
+FACE_COLOR_ID_YELLOW	rubik-cube-gui-solver.py	/^FACE_COLOR_ID_YELLOW = 6$/;"	v
+FACE_COLOR_ID_YELLOW	rubik-tower-gui-solver.py	/^FACE_COLOR_ID_YELLOW = 6$/;"	v
+FACE_COLOR_INITIAL	rubik-cube-gui-solver.py	/^FACE_COLOR_INITIAL = {$/;"	v
+FACE_COLOR_INITIAL	rubik-tower-gui-solver.py	/^FACE_COLOR_INITIAL = {$/;"	v
+FACE_CUBE_INDICES	rubik-cube-gui-solver.py	/^FACE_CUBE_INDICES = {$/;"	v
+FACE_CUBE_INDICES	rubik-tower-gui-solver.py	/^FACE_CUBE_INDICES = {$/;"	v
+FACE_CUBE_PERMUTATIONS	rubik-cube-gui-solver.py	/^FACE_CUBE_PERMUTATIONS = {$/;"	v
+FACE_CUBE_PERMUTATIONS	rubik-tower-gui-solver.py	/^FACE_CUBE_PERMUTATIONS = {$/;"	v
+FACE_CUBE_ROTATIONS_HPR	rubik-cube-gui-solver.py	/^FACE_CUBE_ROTATIONS_HPR = {$/;"	v
+FACE_CUBE_ROTATIONS_HPR	rubik-tower-gui-solver.py	/^FACE_CUBE_ROTATIONS_HPR = {$/;"	v
+FACE_CUBE_SYMMETRIES	rubik-cube-gui-solver.py	/^FACE_CUBE_SYMMETRIES = {$/;"	v
+FACE_CUBE_SYMMETRIES	rubik-tower-gui-solver.py	/^FACE_CUBE_SYMMETRIES = {$/;"	v
+FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION	rubik-cube-gui-solver.py	/^        = list(map(_convert_face_permutation, FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION_0))$/;"	v	class:CubeSymmetry
+FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION	rubik-tower-gui-solver.py	/^        = list(map(_convert_face_permutation, FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION_0))$/;"	v	class:CubeSymmetry
+FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION_0	rubik-cube-gui-solver.py	/^    FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION_0 = [$/;"	v	class:CubeSymmetry
+FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION_0	rubik-tower-gui-solver.py	/^    FACE_PERMUTATION_BY_ADJCENT_TRANSPOSITION_0 = [$/;"	v	class:CubeSymmetry
+FACE_UPPER_LEFT	rubik-tower-gui-solver.py	/^    FACE_UPPER_LEFT = [[0, 2, 'U'], [2, 4, 'R'], [2, 2, 'F'], [4, 2, 'D'], [2, 0, 'L'], [2, 6, 'B']]$/;"	v	class:InputPanels
+GROUND_X	rubik-cube-gui-solver.py	/^GROUND_X = 1024$/;"	v
+GROUND_X	rubik-tower-gui-solver.py	/^GROUND_X = 1024$/;"	v
+GROUND_Y	rubik-cube-gui-solver.py	/^GROUND_Y = 1024$/;"	v
+GROUND_Y	rubik-tower-gui-solver.py	/^GROUND_Y = 1024$/;"	v
+INITIAL_ARRANGEMENT	rubik-cube-gui-solver.py	/^INITIAL_ARRANGEMENT = [[FACE_COLOR_INITIAL[c] for c in list(s)] for s in [$/;"	v
+INITIAL_ARRANGEMENT	rubik-tower-gui-solver.py	/^INITIAL_ARRANGEMENT = [[FACE_COLOR_INITIAL[c] for c in list(s)] for s in [$/;"	v
+InputPanels	rubik-cube-gui-solver.py	/^class InputPanels(DirectFrame):$/;"	c
+InputPanels	rubik-tower-gui-solver.py	/^class InputPanels(DirectFrame):$/;"	c
+Loader	rubik-cube-gui-solver.py	/^from direct.showbase.Loader import Loader$/;"	i
+Loader	rubik-tower-gui-solver.py	/^from direct.showbase.Loader import Loader$/;"	i
+OnscreenText	rubik-cube-gui-solver.py	/^from direct.gui.OnscreenText import OnscreenText$/;"	i
+OnscreenText	rubik-tower-gui-solver.py	/^from direct.gui.OnscreenText import OnscreenText$/;"	i
+PANEL_WIDTH	rubik-cube-gui-solver.py	/^PANEL_WIDTH = 30$/;"	v
+PANEL_WIDTH	rubik-tower-gui-solver.py	/^PANEL_WIDTH = 30$/;"	v
+Panel	rubik-cube-gui-solver.py	/^    class Panel(DirectFrame):$/;"	c	class:InputPanels
+Panel	rubik-tower-gui-solver.py	/^    class Panel(DirectFrame):$/;"	c	class:InputPanels
+Permutation	rubik-cube-gui-solver.py	/^class Permutation:$/;"	c
+Permutation	rubik-tower-gui-solver.py	/^class Permutation:$/;"	c
+RubikCubeModel	rubik-cube-gui-solver.py	/^class RubikCubeModel():$/;"	c
+RubikCubeModel	rubik-tower-gui-solver.py	/^class RubikCubeModel():$/;"	c
+RubikCubeSolution	rubik-cube-gui-solver.py	/^class RubikCubeSolution:$/;"	c
+RubikCubeSolution	rubik-tower-gui-solver.py	/^class RubikCubeSolution:$/;"	c
+RubikCubeSolverGUI	rubik-cube-gui-solver.py	/^class RubikCubeSolverGUI(ShowBase):$/;"	c
+RubikCubeSolverGUI	rubik-tower-gui-solver.py	/^class RubikCubeSolverGUI(ShowBase):$/;"	c
+RubikCubeSolverGUI_AnimationScreen	rubik-cube-gui-solver.py	/^class RubikCubeSolverGUI_AnimationScreen:$/;"	c
+RubikCubeSolverGUI_AnimationScreen	rubik-tower-gui-solver.py	/^class RubikCubeSolverGUI_AnimationScreen:$/;"	c
+RubikCubeSolverGUI_InputScreen	rubik-cube-gui-solver.py	/^class RubikCubeSolverGUI_InputScreen:$/;"	c
+RubikCubeSolverGUI_InputScreen	rubik-tower-gui-solver.py	/^class RubikCubeSolverGUI_InputScreen:$/;"	c
+ShowBase	rubik-cube-gui-solver.py	/^from direct.showbase.ShowBase import ShowBase$/;"	i
+ShowBase	rubik-tower-gui-solver.py	/^from direct.showbase.ShowBase import ShowBase$/;"	i
+Task	rubik-cube-gui-solver.py	/^from direct.task import Task$/;"	i
+Task	rubik-tower-gui-solver.py	/^from direct.task import Task$/;"	i
+__init__	rubik-cube-gui-solver.py	/^        def __init__(self, parent, **kw):$/;"	m	class:InputPanels.Panel
+__init__	rubik-cube-gui-solver.py	/^        def __init__(self, showbase):$/;"	m	class:RubikCubeModel.Cube
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self):$/;"	m	class:RubikCubeSolverGUI
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self, parent=None, **kw):$/;"	m	class:InputPanels
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self, showbase):$/;"	m	class:RubikCubeModel
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self, showbase):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self, showbase):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self, solution_str):$/;"	m	class:RubikCubeSolution
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self, table : list):$/;"	m	class:CubeSymmetry
+__init__	rubik-cube-gui-solver.py	/^    def __init__(self, table : list, m = None):$/;"	m	class:Permutation
+__init__	rubik-tower-gui-solver.py	/^        def __init__(self, parent, **kw):$/;"	m	class:InputPanels.Panel
+__init__	rubik-tower-gui-solver.py	/^        def __init__(self, showbase):$/;"	m	class:RubikCubeModel.Cube
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self):$/;"	m	class:RubikCubeSolverGUI
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self, parent=None, **kw):$/;"	m	class:InputPanels
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self, showbase):$/;"	m	class:RubikCubeModel
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self, showbase):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self, showbase):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self, solution_str):$/;"	m	class:RubikCubeSolution
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self, table : list):$/;"	m	class:CubeSymmetry
+__init__	rubik-tower-gui-solver.py	/^    def __init__(self, table : list, m = None):$/;"	m	class:Permutation
+__mul__	rubik-cube-gui-solver.py	/^    def __mul__(self, other):$/;"	m	class:CubeSymmetry	file:
+__mul__	rubik-cube-gui-solver.py	/^    def __mul__(self, other):$/;"	m	class:Permutation	file:
+__mul__	rubik-tower-gui-solver.py	/^    def __mul__(self, other):$/;"	m	class:CubeSymmetry	file:
+__mul__	rubik-tower-gui-solver.py	/^    def __mul__(self, other):$/;"	m	class:Permutation	file:
+_convert_face_permutation	rubik-cube-gui-solver.py	/^    def _convert_face_permutation(t):$/;"	m	class:CubeSymmetry
+_convert_face_permutation	rubik-tower-gui-solver.py	/^    def _convert_face_permutation(t):$/;"	m	class:CubeSymmetry
+_create_panel	rubik-cube-gui-solver.py	/^    def _create_panel(self, i, j, c):$/;"	m	class:InputPanels
+_create_panel	rubik-tower-gui-solver.py	/^    def _create_panel(self, i, j, c):$/;"	m	class:InputPanels
+_create_square	rubik-cube-gui-solver.py	/^        def _create_square():$/;"	m	class:RubikCubeModel.Cube
+_create_square	rubik-tower-gui-solver.py	/^        def _create_square():$/;"	m	class:RubikCubeModel.Cube
+a_key	rubik-cube-gui-solver.py	/^    def a_key(self):$/;"	m	class:RubikCubeSolverGUI
+adj_trans_to_face_permutation	rubik-cube-gui-solver.py	/^        def adj_trans_to_face_permutation(t):$/;"	f	function:CubeSymmetry.as_face_permutation
+adj_trans_to_face_permutation	rubik-tower-gui-solver.py	/^        def adj_trans_to_face_permutation(t):$/;"	f	function:CubeSymmetry.as_face_permutation
+adj_trans_to_quad	rubik-cube-gui-solver.py	/^        def adj_trans_to_quad(t):$/;"	f	function:CubeSymmetry.as_quaternion
+adj_trans_to_quad	rubik-tower-gui-solver.py	/^        def adj_trans_to_quad(t):$/;"	f	function:CubeSymmetry.as_quaternion
+adjcent_transpositions	rubik-cube-gui-solver.py	/^    def adjcent_transpositions(self):$/;"	m	class:Permutation
+adjcent_transpositions	rubik-tower-gui-solver.py	/^    def adjcent_transpositions(self):$/;"	m	class:Permutation
+app	rubik-cube-gui-solver.py	/^app = RubikCubeSolverGUI()$/;"	v
+app	rubik-tower-gui-solver.py	/^app = RubikCubeSolverGUI()$/;"	v
+as_face_permutation	rubik-cube-gui-solver.py	/^    def as_face_permutation(self):$/;"	m	class:CubeSymmetry
+as_face_permutation	rubik-tower-gui-solver.py	/^    def as_face_permutation(self):$/;"	m	class:CubeSymmetry
+as_hpr	rubik-cube-gui-solver.py	/^    def as_hpr(self):$/;"	m	class:CubeSymmetry
+as_hpr	rubik-tower-gui-solver.py	/^    def as_hpr(self):$/;"	m	class:CubeSymmetry
+as_quaternion	rubik-cube-gui-solver.py	/^    def as_quaternion(self):$/;"	m	class:CubeSymmetry
+as_quaternion	rubik-tower-gui-solver.py	/^    def as_quaternion(self):$/;"	m	class:CubeSymmetry
+callback_move_end	rubik-cube-gui-solver.py	/^    def callback_move_end(self):$/;"	m	class:RubikCubeSolverGUI
+callback_move_end	rubik-tower-gui-solver.py	/^    def callback_move_end(self):$/;"	m	class:RubikCubeSolverGUI
+change_color	rubik-cube-gui-solver.py	/^    def change_color(self, extra_args):$/;"	m	class:InputPanels
+change_color	rubik-tower-gui-solver.py	/^    def change_color(self, extra_args):$/;"	m	class:InputPanels
+check_validity	rubik-cube-gui-solver.py	/^    def check_validity(self):$/;"	m	class:Permutation
+check_validity	rubik-tower-gui-solver.py	/^    def check_validity(self):$/;"	m	class:Permutation
+command_next	rubik-cube-gui-solver.py	/^    def command_next(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_next	rubik-tower-gui-solver.py	/^    def command_next(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_next_cont	rubik-cube-gui-solver.py	/^    def command_next_cont(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_next_cont	rubik-tower-gui-solver.py	/^    def command_next_cont(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_prev	rubik-cube-gui-solver.py	/^    def command_prev(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_prev	rubik-tower-gui-solver.py	/^    def command_prev(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_prev_cont	rubik-cube-gui-solver.py	/^    def command_prev_cont(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_prev_cont	rubik-tower-gui-solver.py	/^    def command_prev_cont(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_stop	rubik-cube-gui-solver.py	/^    def command_stop(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+command_stop	rubik-tower-gui-solver.py	/^    def command_stop(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+convert	rubik-cube-gui-solver.py	/^        def convert(pair):$/;"	f	function:CubeSymmetry._convert_face_permutation
+convert	rubik-tower-gui-solver.py	/^        def convert(pair):$/;"	f	function:CubeSymmetry._convert_face_permutation
+cyclic	rubik-cube-gui-solver.py	/^    def cyclic(cycle, m = None):$/;"	m	class:Permutation
+cyclic	rubik-tower-gui-solver.py	/^    def cyclic(cycle, m = None):$/;"	m	class:Permutation
+disable	rubik-cube-gui-solver.py	/^    def disable(self):$/;"	m	class:InputPanels
+disable	rubik-tower-gui-solver.py	/^    def disable(self):$/;"	m	class:InputPanels
+disable_buttons	rubik-cube-gui-solver.py	/^    def disable_buttons(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+disable_buttons	rubik-tower-gui-solver.py	/^    def disable_buttons(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+enable	rubik-cube-gui-solver.py	/^    def enable(self):$/;"	m	class:InputPanels
+enable	rubik-tower-gui-solver.py	/^    def enable(self):$/;"	m	class:InputPanels
+enable_buttons	rubik-cube-gui-solver.py	/^    def enable_buttons(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+enable_buttons	rubik-tower-gui-solver.py	/^    def enable_buttons(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+func	tmp.cpp	/^char func(char c) {$/;"	f
+functools	rubik-cube-gui-solver.py	/^import functools$/;"	i
+functools	rubik-tower-gui-solver.py	/^import functools$/;"	i
+get_color	rubik-cube-gui-solver.py	/^    def get_color(self):$/;"	m	class:RubikCubeModel
+get_color	rubik-cube-gui-solver.py	/^    def get_color(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+get_color	rubik-cube-gui-solver.py	/^    def get_color(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+get_color	rubik-tower-gui-solver.py	/^    def get_color(self):$/;"	m	class:RubikCubeModel
+get_color	rubik-tower-gui-solver.py	/^    def get_color(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+get_color	rubik-tower-gui-solver.py	/^    def get_color(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+get_face	rubik-cube-gui-solver.py	/^        def get_face(self, face):$/;"	m	class:RubikCubeModel.Cube
+get_face	rubik-tower-gui-solver.py	/^        def get_face(self, face):$/;"	m	class:RubikCubeModel.Cube
+get_face_color	rubik-cube-gui-solver.py	/^        def get_face_color(self, face):$/;"	m	class:RubikCubeModel.Cube
+get_face_color	rubik-tower-gui-solver.py	/^        def get_face_color(self, face):$/;"	m	class:RubikCubeModel.Cube
+get_face_index	rubik-cube-gui-solver.py	/^        def get_face_index(self, face):$/;"	m	class:RubikCubeModel.Cube
+get_face_index	rubik-tower-gui-solver.py	/^        def get_face_index(self, face):$/;"	m	class:RubikCubeModel.Cube
+get_panel_color	rubik-cube-gui-solver.py	/^        def get_panel_color(self):$/;"	m	class:InputPanels.Panel
+get_panel_color	rubik-tower-gui-solver.py	/^        def get_panel_color(self):$/;"	m	class:InputPanels.Panel
+get_panel_width	rubik-cube-gui-solver.py	/^    def get_panel_width(self): return self.panel_width$/;"	m	class:InputPanels
+get_panel_width	rubik-tower-gui-solver.py	/^    def get_panel_width(self): return self.panel_width$/;"	m	class:InputPanels
+get_panels_colors	rubik-cube-gui-solver.py	/^    def get_panels_colors(self):$/;"	m	class:InputPanels
+get_panels_colors	rubik-tower-gui-solver.py	/^    def get_panels_colors(self):$/;"	m	class:InputPanels
+get_selected_panels	rubik-cube-gui-solver.py	/^    def get_selected_panels(self):$/;"	m	class:InputPanels
+get_selected_panels	rubik-tower-gui-solver.py	/^    def get_selected_panels(self):$/;"	m	class:InputPanels
+hide	rubik-cube-gui-solver.py	/^    def hide(self): self.root.hide()$/;"	m	class:RubikCubeModel
+hide	rubik-cube-gui-solver.py	/^    def hide(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+hide	rubik-cube-gui-solver.py	/^    def hide(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+hide	rubik-tower-gui-solver.py	/^    def hide(self): self.root.hide()$/;"	m	class:RubikCubeModel
+hide	rubik-tower-gui-solver.py	/^    def hide(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+hide	rubik-tower-gui-solver.py	/^    def hide(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+identity	rubik-cube-gui-solver.py	/^    def identity(m):$/;"	m	class:Permutation
+identity	rubik-tower-gui-solver.py	/^    def identity(m):$/;"	m	class:Permutation
+invert	rubik-cube-gui-solver.py	/^    def invert(self):$/;"	m	class:CubeSymmetry
+invert	rubik-cube-gui-solver.py	/^    def invert(self):$/;"	m	class:Permutation
+invert	rubik-tower-gui-solver.py	/^    def invert(self):$/;"	m	class:CubeSymmetry
+invert	rubik-tower-gui-solver.py	/^    def invert(self):$/;"	m	class:Permutation
+justify_cube_arrangements	rubik-cube-gui-solver.py	/^    def justify_cube_arrangements(self):$/;"	m	class:RubikCubeModel
+justify_cube_arrangements	rubik-tower-gui-solver.py	/^    def justify_cube_arrangements(self):$/;"	m	class:RubikCubeModel
+kociemba	rubik-cube-gui-solver.py	/^import kociemba$/;"	i
+kociemba	rubik-tower-gui-solver.py	/^import kociemba$/;"	i
+main	tmp.cpp	/^int main() {$/;"	f
+main	tmp2.cpp	/^int main() {$/;"	f
+math	rubik-cube-gui-solver.py	/^import math$/;"	i
+math	rubik-tower-gui-solver.py	/^import math$/;"	i
+maximize	rubik-cube-gui-solver.py	/^    def maximize(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+maximize	rubik-tower-gui-solver.py	/^    def maximize(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+minimize	rubik-cube-gui-solver.py	/^    def minimize(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+minimize	rubik-tower-gui-solver.py	/^    def minimize(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+move_cursor	rubik-cube-gui-solver.py	/^    def move_cursor(self, row, col):$/;"	m	class:InputPanels
+move_cursor	rubik-tower-gui-solver.py	/^    def move_cursor(self, row, col):$/;"	m	class:InputPanels
+move_cursor_d	rubik-cube-gui-solver.py	/^    def move_cursor_d(self): self.move_cursor(self.cursor[0] + 1, self.cursor[1])$/;"	m	class:InputPanels
+move_cursor_d	rubik-tower-gui-solver.py	/^    def move_cursor_d(self): self.move_cursor(self.cursor[0] + 1, self.cursor[1])$/;"	m	class:InputPanels
+move_cursor_l	rubik-cube-gui-solver.py	/^    def move_cursor_l(self): self.move_cursor(self.cursor[0], self.cursor[1] - 1)$/;"	m	class:InputPanels
+move_cursor_l	rubik-tower-gui-solver.py	/^    def move_cursor_l(self): self.move_cursor(self.cursor[0], self.cursor[1] - 1)$/;"	m	class:InputPanels
+move_cursor_r	rubik-cube-gui-solver.py	/^    def move_cursor_r(self): self.move_cursor(self.cursor[0], self.cursor[1] + 1)$/;"	m	class:InputPanels
+move_cursor_r	rubik-tower-gui-solver.py	/^    def move_cursor_r(self): self.move_cursor(self.cursor[0], self.cursor[1] + 1)$/;"	m	class:InputPanels
+move_cursor_u	rubik-cube-gui-solver.py	/^    def move_cursor_u(self): self.move_cursor(self.cursor[0] - 1, self.cursor[1])$/;"	m	class:InputPanels
+move_cursor_u	rubik-tower-gui-solver.py	/^    def move_cursor_u(self): self.move_cursor(self.cursor[0] - 1, self.cursor[1])$/;"	m	class:InputPanels
+next	rubik-cube-gui-solver.py	/^    def next(self):$/;"	m	class:RubikCubeSolution
+next	rubik-tower-gui-solver.py	/^    def next(self):$/;"	m	class:RubikCubeSolution
+on_button_click	rubik-cube-gui-solver.py	/^    def on_button_click(self, cmd):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+on_button_click	rubik-cube-gui-solver.py	/^    def on_button_click(self, cmd):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+on_button_click	rubik-tower-gui-solver.py	/^    def on_button_click(self, cmd):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+on_button_click	rubik-tower-gui-solver.py	/^    def on_button_click(self, cmd):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+on_control_down	rubik-cube-gui-solver.py	/^    def on_control_down(self): self.control_down = True$/;"	m	class:InputPanels
+on_control_down	rubik-tower-gui-solver.py	/^    def on_control_down(self): self.control_down = True$/;"	m	class:InputPanels
+on_control_up	rubik-cube-gui-solver.py	/^    def on_control_up(self):   self.control_down = False$/;"	m	class:InputPanels
+on_control_up	rubik-tower-gui-solver.py	/^    def on_control_up(self):   self.control_down = False$/;"	m	class:InputPanels
+on_mouse_enter	rubik-cube-gui-solver.py	/^        def on_mouse_enter(self): pass$/;"	m	class:InputPanels.Panel
+on_mouse_enter	rubik-tower-gui-solver.py	/^        def on_mouse_enter(self): pass$/;"	m	class:InputPanels.Panel
+on_mouse_leave	rubik-cube-gui-solver.py	/^        def on_mouse_leave(self): pass$/;"	m	class:InputPanels.Panel
+on_mouse_leave	rubik-tower-gui-solver.py	/^        def on_mouse_leave(self): pass$/;"	m	class:InputPanels.Panel
+panel_mouse_click	rubik-cube-gui-solver.py	/^    def panel_mouse_click(self, extra_args, mouse_pos):$/;"	m	class:InputPanels
+panel_mouse_click	rubik-tower-gui-solver.py	/^    def panel_mouse_click(self, extra_args, mouse_pos):$/;"	m	class:InputPanels
+panel_mouse_enter	rubik-cube-gui-solver.py	/^    def panel_mouse_enter(self, extra_args, mouse_pos):$/;"	m	class:InputPanels
+panel_mouse_enter	rubik-tower-gui-solver.py	/^    def panel_mouse_enter(self, extra_args, mouse_pos):$/;"	m	class:InputPanels
+panel_mouse_leave	rubik-cube-gui-solver.py	/^    def panel_mouse_leave(self, extra_args, mouse_pos):$/;"	m	class:InputPanels
+panel_mouse_leave	rubik-tower-gui-solver.py	/^    def panel_mouse_leave(self, extra_args, mouse_pos):$/;"	m	class:InputPanels
+permute	rubik-cube-gui-solver.py	/^    def permute(self, x : list):$/;"	m	class:Permutation
+permute	rubik-tower-gui-solver.py	/^    def permute(self, x : list):$/;"	m	class:Permutation
+phi	rubik-cube-gui-solver.py	/^phi = 10.0$/;"	v
+phi	rubik-tower-gui-solver.py	/^phi = 10.0$/;"	v
+power	rubik-cube-gui-solver.py	/^    def power(self, n):$/;"	m	class:CubeSymmetry
+power	rubik-cube-gui-solver.py	/^    def power(self, n):$/;"	m	class:Permutation
+power	rubik-tower-gui-solver.py	/^    def power(self, n):$/;"	m	class:CubeSymmetry
+power	rubik-tower-gui-solver.py	/^    def power(self, n):$/;"	m	class:Permutation
+prev	rubik-cube-gui-solver.py	/^    def prev(self):$/;"	m	class:RubikCubeSolution
+prev	rubik-tower-gui-solver.py	/^    def prev(self):$/;"	m	class:RubikCubeSolution
+q_key	rubik-cube-gui-solver.py	/^    def q_key(self):$/;"	m	class:RubikCubeSolverGUI
+quit	rubik-cube-gui-solver.py	/^    def quit(self):$/;"	m	class:RubikCubeSolverGUI
+quit_animation_screen	rubik-cube-gui-solver.py	/^    def quit_animation_screen(self):$/;"	m	class:RubikCubeSolverGUI
+quit_animation_screen	rubik-tower-gui-solver.py	/^    def quit_animation_screen(self):$/;"	m	class:RubikCubeSolverGUI
+r	rubik-cube-gui-solver.py	/^r = 10.0$/;"	v
+r	rubik-tower-gui-solver.py	/^r = 10.0$/;"	v
+rep	tmp.cpp	/^#define rep(/;"	d	file:
+rep	tmp2.cpp	/^#define rep(/;"	d	file:
+rotate_color	rubik-cube-gui-solver.py	/^        def rotate_color(self):$/;"	m	class:InputPanels.Panel
+rotate_color	rubik-tower-gui-solver.py	/^        def rotate_color(self):$/;"	m	class:InputPanels.Panel
+rotate_face	rubik-cube-gui-solver.py	/^    def rotate_face(self, f, k):$/;"	m	class:RubikCubeModel
+rotate_face	rubik-tower-gui-solver.py	/^    def rotate_face(self, f, k):$/;"	m	class:RubikCubeModel
+round90	rubik-cube-gui-solver.py	/^        def round90(x): return round(x \/ 90.0) * 90$/;"	f	function:CubeSymmetry.as_hpr
+round90	rubik-tower-gui-solver.py	/^        def round90(x): return round(x \/ 90.0) * 90$/;"	f	function:CubeSymmetry.as_hpr
+rubik_cube_callback	rubik-cube-gui-solver.py	/^    def rubik_cube_callback(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+rubik_cube_callback	rubik-tower-gui-solver.py	/^    def rubik_cube_callback(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+s_key	rubik-cube-gui-solver.py	/^    def s_key(self):$/;"	m	class:RubikCubeSolverGUI
+sample1	rubik-cube-gui-solver.py	/^    def sample1(self):$/;"	m	class:RubikCubeSolverGUI
+sample2	rubik-cube-gui-solver.py	/^    def sample2(self):$/;"	m	class:RubikCubeSolverGUI
+sample3	rubik-cube-gui-solver.py	/^    def sample3(self):$/;"	m	class:RubikCubeSolverGUI
+sample_arrangement	rubik-cube-gui-solver.py	/^sample_arrangement = [int(c) for c in list("646455232644525515565261221154233124261343363313614614")]$/;"	v
+sample_arrangement	rubik-tower-gui-solver.py	/^sample_arrangement = [int(c) for c in list("646455232644525515565261221154233124261343363313614614")]$/;"	v
+select	rubik-cube-gui-solver.py	/^        def select(self):$/;"	m	class:InputPanels.Panel
+select	rubik-tower-gui-solver.py	/^        def select(self):$/;"	m	class:InputPanels.Panel
+set_color	rubik-cube-gui-solver.py	/^    def set_color(self, colors = None):$/;"	m	class:RubikCubeModel
+set_color	rubik-cube-gui-solver.py	/^    def set_color(self, colors):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+set_color	rubik-cube-gui-solver.py	/^    def set_color(self, colors):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+set_color	rubik-tower-gui-solver.py	/^    def set_color(self, colors = None):$/;"	m	class:RubikCubeModel
+set_color	rubik-tower-gui-solver.py	/^    def set_color(self, colors):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+set_color	rubik-tower-gui-solver.py	/^    def set_color(self, colors):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+set_face_color	rubik-cube-gui-solver.py	/^        def set_face_color(self, face, color_id):$/;"	m	class:RubikCubeModel.Cube
+set_face_color	rubik-tower-gui-solver.py	/^        def set_face_color(self, face, color_id):$/;"	m	class:RubikCubeModel.Cube
+set_panel_color	rubik-cube-gui-solver.py	/^        def set_panel_color(self, color_id):$/;"	m	class:InputPanels.Panel
+set_panel_color	rubik-tower-gui-solver.py	/^        def set_panel_color(self, color_id):$/;"	m	class:InputPanels.Panel
+set_panel_width	rubik-cube-gui-solver.py	/^        def set_panel_width(self, w):$/;"	m	class:InputPanels.Panel
+set_panel_width	rubik-cube-gui-solver.py	/^    def set_panel_width(self, width):$/;"	m	class:InputPanels
+set_panel_width	rubik-tower-gui-solver.py	/^        def set_panel_width(self, w):$/;"	m	class:InputPanels.Panel
+set_panel_width	rubik-tower-gui-solver.py	/^    def set_panel_width(self, width):$/;"	m	class:InputPanels
+set_panels_colors	rubik-cube-gui-solver.py	/^    def set_panels_colors(self, color):$/;"	m	class:InputPanels
+set_panels_colors	rubik-tower-gui-solver.py	/^    def set_panels_colors(self, color):$/;"	m	class:InputPanels
+show	rubik-cube-gui-solver.py	/^    def show(self): self.root.show()$/;"	m	class:RubikCubeModel
+show	rubik-cube-gui-solver.py	/^    def show(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+show	rubik-cube-gui-solver.py	/^    def show(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+show	rubik-tower-gui-solver.py	/^    def show(self): self.root.show()$/;"	m	class:RubikCubeModel
+show	rubik-tower-gui-solver.py	/^    def show(self):$/;"	m	class:RubikCubeSolverGUI_AnimationScreen
+show	rubik-tower-gui-solver.py	/^    def show(self):$/;"	m	class:RubikCubeSolverGUI_InputScreen
+square	rubik-cube-gui-solver.py	/^    def square(self): return self.power(2)$/;"	m	class:Permutation
+square	rubik-tower-gui-solver.py	/^    def square(self): return self.power(2)$/;"	m	class:Permutation
+start_solving	rubik-cube-gui-solver.py	/^    def start_solving(self):$/;"	m	class:RubikCubeSolverGUI
+start_solving	rubik-tower-gui-solver.py	/^    def start_solving(self):$/;"	m	class:RubikCubeSolverGUI
+task_rotate_cubes	rubik-cube-gui-solver.py	/^    def task_rotate_cubes(self, extra_args, task):$/;"	m	class:RubikCubeModel
+task_rotate_cubes	rubik-tower-gui-solver.py	/^    def task_rotate_cubes(self, extra_args, task):$/;"	m	class:RubikCubeModel
+theta	rubik-cube-gui-solver.py	/^theta = 30.0$/;"	v
+theta	rubik-tower-gui-solver.py	/^theta = 30.0$/;"	v
+transpositions	rubik-cube-gui-solver.py	/^    def transpositions(self):$/;"	m	class:Permutation
+transpositions	rubik-tower-gui-solver.py	/^    def transpositions(self):$/;"	m	class:Permutation
+unselect	rubik-cube-gui-solver.py	/^        def unselect(self):$/;"	m	class:InputPanels.Panel
+unselect	rubik-tower-gui-solver.py	/^        def unselect(self):$/;"	m	class:InputPanels.Panel
+unselect_all	rubik-cube-gui-solver.py	/^    def unselect_all(self):$/;"	m	class:InputPanels
+unselect_all	rubik-tower-gui-solver.py	/^    def unselect_all(self):$/;"	m	class:InputPanels
+w_key	rubik-cube-gui-solver.py	/^    def w_key(self):$/;"	m	class:RubikCubeSolverGUI
+x_key	rubik-cube-gui-solver.py	/^    def x_key(self):$/;"	m	class:RubikCubeSolverGUI
+z_key	rubik-cube-gui-solver.py	/^    def z_key(self):$/;"	m	class:RubikCubeSolverGUI
